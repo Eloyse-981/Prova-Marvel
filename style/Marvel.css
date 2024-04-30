@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    background-color: rgb(97, 95, 95);
+    background-image: linear-gradient(to bottom, transparent, black);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    background-color: rgb(21, 21, 21);
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 25px;
+}
+
+#logo img {
+    width: 100px;
+    height: auto;
+    margin-top: 5px;
+}
+
+#logo2{
+    width: 100px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: rgb(97, 95, 95);
+    transition: 1s;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+    margin: 0;
+    margin-top: -7%;
+}
+
+li {
+    margin: 0 40px;
+    margin-left: -1%;
+}
+
+#sair {
+    margin-left: auto;
+    margin-top: -2.5%;
+}
+
+
+#logo,
+ul {
+    margin-right: auto;
+}
+
+main{
+    display: flex;
+    
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+h3{
+    color: white;
+    display: block;
+}
+
+.card{
+    background-color: rgb(138, 43, 226);
+    width: 250px;
+    height: 300;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-left: -30%;
+}
+
+.card h3{
+    color: white;
+    text-align: left;
+    margin-right: 0%;
+    margin-left: -110px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background: linear-gradient(to right, red, blue);
+    width: 60px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 0%;
+    padding: 0%;
+}
+
+.card img{
+    height: 100px;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+form{
+    background: url(../assets/img/giphy.gif);
+    background-size: cover;
+    width: 700px;
+    height: 700px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+h4{
+    margin: 10px;
+    color: white;
+}
+#ok{
+    color: white;
+}
+#check{
+    float: left;
+    margin-right: 10px;
+}
+#check{
+    transform: scale(0.3);
+    margin-left: 0px;
+}
+#alistar{
+    background-color: blueviolet;
+    color: white;
+}
+#bnt:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+#bnt2:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+#bnt3:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+#bnt-60{
+    border-radius: 10px;
+    width: 70px;
+    height: 45px;
+    box-shadow: none;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+#bnt2{
+    color: white;
+    width: 100%;
+}
+input{
+    width: 90%;
+    height: 50px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+#p{
+    background-color: rgba(175, 170, 170, 0.199);
+    color: white;
+}
+#forca{
+    width: 200px;
+}
